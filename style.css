@@ -1,0 +1,36 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: pink;
+}
+
+.parent {
+  font-size: 10px;
+  text-align: center;
+}
+
+.child1 {
+  font-size: 5rem;
+}
+
+.child2 {
+  font-size: 4rem;
+}
+.parent-2 {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.character {
+  font-size: 3rem;
+  border: 3px solid;
+  border-color: lightskyblue;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
