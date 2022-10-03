@@ -23,6 +23,10 @@ body,
   font-size: 4rem;
 }
 
+.child2::before {
+  content: "\267F";
+}
+
 .parent-2 {
   font-size: 70px;
   display: flex;
@@ -48,4 +52,14 @@ body,
 
 .character {
   font-family: Anton;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.description {
+  width: 400px;
+  margin: 5px;
 }
