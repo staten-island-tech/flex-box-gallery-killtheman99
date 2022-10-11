@@ -48,6 +48,7 @@ body,
   border: solid white 1px;
   box-shadow: 5px 5px 5px 5px;
   transition: all 0.4s;
+  opacity: 0.5;
 }
 
 .character {
@@ -56,6 +57,7 @@ body,
 
 .char-img:hover {
   transform: scale(1.05);
+  opacity: 1;
 }
 
 .description {
@@ -63,6 +65,21 @@ body,
   margin: 5px;
 }
 
-.batman {
+#batman {
   opacity: 0.2;
+  transition: all 0.4s;
+}
+
+#batman:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  outline: 5px solid black;
+}
+
+#superman {
+  transition: 1s;
+}
+
+#superman:hover {
+  transform: rotate(360deg);
 }
