@@ -45,7 +45,7 @@ body,
   max-width: 100vw;
   height: 350px;
   margin: 10px;
-  border: solid white 1px;
+  border: solid black 1px;
   box-shadow: 5px 5px 5px 5px;
   transition: all 0.4s;
   opacity: 0.5;
@@ -98,14 +98,29 @@ body,
 }
 
 #giant {
-  animation: fade 4s;
+  animation: fadeIn 4s;
 }
 
-@keyframes fade {
+@keyframes fadeIn {
   0% {
-    opacity: 10%;
+    opacity: 0;
   }
   100% {
-    opacity: 100%;
+    opacity: 1;
   }
+}
+
+#iron:hover {
+  transform: scale(1.2);
+}
+#iron {
+  transition: 1s;
+}
+
+#tom:hover {
+  transform: skew(30deg);
+}
+
+#tom {
+  transition: 1s;
 }
