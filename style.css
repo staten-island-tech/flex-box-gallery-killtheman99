@@ -83,3 +83,29 @@ body,
 #superman:hover {
   transform: rotate(360deg);
 }
+
+#head {
+  animation: LtoR linear 9s infinite;
+}
+
+@keyframes LtoR {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: calc(100%-100px);
+  }
+}
+
+#giant {
+  animation: fade 4s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
