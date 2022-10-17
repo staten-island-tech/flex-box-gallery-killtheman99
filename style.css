@@ -44,6 +44,7 @@ body,
   min-width: 20vw;
   max-width: 100vw;
   height: 350px;
+
   margin: 10px;
   border: solid black 1px;
   box-shadow: 5px 5px 5px 5px;
@@ -53,6 +54,13 @@ body,
 
 .character {
   font-family: Anton;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .character {
+    color: blue;
+  }
 }
 
 .char-img:hover {
